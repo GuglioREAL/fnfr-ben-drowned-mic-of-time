@@ -14,16 +14,14 @@ return {
 
 		song = songNum
 		difficulty = songAppend
-        if song ~= 3 then
-            foreground = graphics.newImage(love.graphics.newImage(graphics.imagePath("ben/ben tree")))
-            background = graphics.newImage(love.graphics.newImage(graphics.imagePath("ben/ben sky")))
-            ground = graphics.newImage(love.graphics.newImage(graphics.imagePath("ben/ben ground")))
-            foreground.y = 80
+        foreground = graphics.newImage(love.graphics.newImage(graphics.imagePath("ben/ben tree")))
+        background = graphics.newImage(love.graphics.newImage(graphics.imagePath("ben/ben sky")))
+        ground = graphics.newImage(love.graphics.newImage(graphics.imagePath("ben/ben ground")))
+        foreground.y = 80
 
-            enemy = love.filesystem.load("sprites/characters/benRipBozo.lua")()
+        enemy = love.filesystem.load("sprites/characters/benRipBozo.lua")()
 
-            enemy.x, enemy.y = -175, 210
-        end
+        enemy.x, enemy.y = -175, 210
         
 		boyfriend.x, boyfriend.y = 380, 330
 
