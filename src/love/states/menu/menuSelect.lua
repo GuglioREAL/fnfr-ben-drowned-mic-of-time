@@ -94,7 +94,7 @@ return {
 			        graphics.fadeOut(
 				        0.5,
 				        function()
-					        storyMode = false
+					        storyMode = true
 					        songAppend = "-hard"
 					        songNum = weekNum
 					        Gamestate.switch(bd, songNum, songAppend)

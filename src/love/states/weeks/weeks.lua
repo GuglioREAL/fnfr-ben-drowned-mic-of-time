@@ -59,7 +59,7 @@ return {
 		images = {
 			icons = love.graphics.newImage(graphics.imagePath("icons")),
 			notes = love.graphics.newImage(graphics.imagePath("notes")),
-			notesB = love.graphics.newImage(graphics.imagePath("ben/NOTE_ASSETS")),
+			notesB = love.graphics.newImage(graphics.imagePath("ben/NOTE_assets")),
 			numbers = love.graphics.newImage(graphics.imagePath("numbers"))
 		}
 
